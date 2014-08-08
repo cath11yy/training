@@ -8,7 +8,7 @@ $(document).ready(function() {
 		var Extracurricular = $("#droplist").val();
 		console.log(FirstName);
 		console.log(LastName);
-		console.log(ChinesechoolID);				
+		console.log(ChineseschoolID);				
 		console.log(Extracurricular);
 		
 	});	
