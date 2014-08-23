@@ -1,18 +1,6 @@
 $(document).ready(function() {
 	
-	$("#Submit" )
-	.click(function() {
-		var FirstName = $("#firstname").val();
-		var LastName = $("#lastname").val();
-		var ChineseschoolID = $("#ChineseschoolID").val();	
-		var Extracurricular = $("#droplist").val();
-		console.log(FirstName);
-		console.log(LastName);
-		console.log(ChineseschoolID);				
-		console.log(Extracurricular);
-		
-	});	
-
+	
 	var messageBody = JSON.stringify(data);
   console.log('sending', messageBody);
   $.ajax({
@@ -27,5 +15,20 @@ $(document).ready(function() {
   });
 }
 	
+	
+	
+	$("#Submit" )
+	.click(function() {
+		var FirstName = $("#firstname").val();
+		var LastName = $("#lastname").val();
+		var ChineseschoolID = $("#ChineseschoolID").val();	
+		var Extracurricular = $("#droplist").val();
+		console.log(FirstName);
+		console.log(LastName);
+		console.log(ChineseschoolID);				
+		console.log(Extracurricular);
+		
+	});	
+
 	
 });
